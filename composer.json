@@ -31,7 +31,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Aura\\SqlSchema\\": "src/"
+            "Thedigital\\SqlSchema\\": "src/"
         }
     },
     "extra": {

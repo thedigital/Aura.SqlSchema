@@ -1,5 +1,5 @@
 <?php
-namespace Aura\SqlSchema\Setup;
+namespace Thedigital\SqlSchema\Setup;
 
 use PDO;
 

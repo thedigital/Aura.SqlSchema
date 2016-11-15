@@ -1,5 +1,5 @@
 <?php
-namespace Aura\SqlSchema;
+namespace Thedigital\SqlSchema;
 
 class ColumnTest extends \PHPUnit_Framework_TestCase
 {
@@ -59,7 +59,7 @@ class ColumnTest extends \PHPUnit_Framework_TestCase
 
         $actual = var_export($col, true);
         $expect = <<<EXPECT
-Aura\SqlSchema\Column::__set_state(array(
+Thedigital\SqlSchema\Column::__set_state(array(
    'name' => 'cost',
    'type' => 'numeric',
    'size' => 10,
