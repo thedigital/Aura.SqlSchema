@@ -6,7 +6,7 @@
  * @license http://opensource.org/licenses/bsd-license.php BSD
  *
  */
-namespace Aura\SqlSchema;
+namespace Thedigital\SqlSchema;
 
 /**
  *
@@ -181,12 +181,12 @@ class Column
      *
      * @param array $array Column property.
      *
-     * @return object \Aura\SqlSchema\Column.
+     * @return object \Thedigital\SqlSchema\Column.
      *
      */
     public static function __set_state($array)
     {
-        $column = new \Aura\SqlSchema\Column(
+        $column = new \Thedigital\SqlSchema\Column(
             $array['name'],
             $array['type'],
             $array['size'],
