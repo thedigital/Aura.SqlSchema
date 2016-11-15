@@ -73,7 +73,7 @@ class MysqlSchema extends AbstractSchema
         $text = "SHOW COLUMNS FROM $table";
 
         if ($schema) {
-            $schema = preg_replace('/[^\w]/', '', $schema);
+            $schema = preg_replace('/[^\w-]/', '', $schema);
             $schema = $this->quoteName($schema);
             $text .= " IN $schema";
         }
