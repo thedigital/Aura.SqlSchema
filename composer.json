@@ -1,5 +1,5 @@
 {
-    "name": "aura/sqlschema",
+    "name": "thedigital/sqlschema",
     "type": "library",
     "description": "Provides facilities to read table names and table columns from a database using PDO.",
     "keywords": [
